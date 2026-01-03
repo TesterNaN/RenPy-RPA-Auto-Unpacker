@@ -21,7 +21,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import os
 import re
-import os, glob
+import glob
 
 
 def find_rpa_file():
@@ -349,4 +349,5 @@ with open('core.py', 'a', encoding='utf-8') as f:
     f.write(code_part_2+'\n')
 from core import main
 main()
+
 
